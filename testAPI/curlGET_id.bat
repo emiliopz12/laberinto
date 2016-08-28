@@ -1,0 +1,1 @@
+curl http://localhost:8080/api/bears/57a29daab9df3eb400000001
