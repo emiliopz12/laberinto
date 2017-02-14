@@ -1,0 +1,20 @@
+{
+  "name": "laberinto",
+  "version": "1.0.0",
+  "description": "Proyecto Paradigmas",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http-server": "^0.9.0",
+    "mongoose": "^4.5.10",
+    "morgan": "^1.7.0",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
