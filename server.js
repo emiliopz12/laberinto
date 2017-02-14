@@ -21,8 +21,9 @@ app.use(bodyParser.json({limit: "50mb"}));
 
 // establecer puerto
 var port     = process.env.PORT || 8080; 
+mongoose.connect('mongodb://node:nodeuser@jello.modulusmongo.net:27017/Igu3syme');
 
-mongoose.connect('mongodb://localhost/Juego');
+// mongoose.connect('mongodb://localhost/Juego');
 
 const maze  = require('./app/laberinto/Laberinto');
 
